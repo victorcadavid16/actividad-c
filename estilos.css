@@ -38,9 +38,59 @@ body{
   color: #515151;
   text-align: center;
 }
-.punto2{
-  background: rgb(15, 20, 30);
+.punto1{
+  background-color: aqua;
 }
 .punto2-1{
-  background;
+  background-color: rgb(10, 20, 30);
+}
+.punto2-2{
+  background-color: rgb(20, 30, 40);
+}
+.punto2-3{
+  background-color: rgb(85, 45, 78);
+}
+.punto2-4{
+  background-color: rgb(97, 125, 148);
+}
+.punto2-5{
+  background-color: rgb(65, 25, 88);
+}
+.contenedor3{
+  background: url("./characters/halo.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  }
+  .puntoc8 {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.puntoc9 {
+  background: radial-gradient(circle at center, #ff9a9e, #fad0c4);
+  color: #333;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(103, 50, 50, 0.2);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.puntoc10{
+text-transform: lowercase;
+letter-spacing: 0cqh;
 }
